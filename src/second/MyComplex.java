@@ -1,5 +1,5 @@
 package second;
-//hjhgjhg
+
 public class MyComplex {
     private double real = 0.0;
     private double imag = 0.0;
