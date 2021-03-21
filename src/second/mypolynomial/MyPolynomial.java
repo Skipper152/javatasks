@@ -28,6 +28,7 @@ public class MyPolynomial {
         return result;
     }
 
+    //Здесь учтено, что полиномы могут быть разной длины
     public MyPolynomial add(MyPolynomial right) {
         int minDeg = Math.min(this.getDegree(), right.getDegree());
         int maxDeg = Math.max(this.getDegree(), right.getDegree());
