@@ -1,4 +1,4 @@
-package second.mycomplex;
+package first.part2.mycomplex;
 
 public class MyComplex {
     private double real = 0.0;

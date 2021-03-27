@@ -1,4 +1,4 @@
-package first.employees;
+package first.part1.employees;
 
 public class Employee {
     private int id;

@@ -1,4 +1,4 @@
-package first.figure;
+package first.part1.figure;
 
 public class MyTriangle {
     private MyPoint v1;

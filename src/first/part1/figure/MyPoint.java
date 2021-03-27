@@ -1,4 +1,4 @@
-package first.figure;
+package first.part1.figure;
 
 public class MyPoint {
     private double x = 0;

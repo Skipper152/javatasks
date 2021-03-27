@@ -1,4 +1,4 @@
-package second.ball;
+package first.part2.ball;
 
 public class Ball {
     private float x;

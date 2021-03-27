@@ -1,4 +1,4 @@
-package first.figure;
+package first.part1.figure;
 
 public class Circle {
     private double radius = 1.0;

@@ -1,4 +1,4 @@
-package first.books;
+package first.part1.books;
 
 import java.util.Arrays;
 

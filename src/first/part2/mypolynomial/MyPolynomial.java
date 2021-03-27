@@ -1,4 +1,4 @@
-package second.mypolynomial;
+package first.part2.mypolynomial;
 
 public class MyPolynomial {
     private double[] coeffs;
