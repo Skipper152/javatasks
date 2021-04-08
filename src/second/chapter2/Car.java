@@ -1,20 +1,20 @@
 package second.chapter2;
 
 public class Car {
-    private double distance;
-    private double fuelQuantity;
-    private double fuelEfficiency;
+    private Double distance = Double.valueOf(0);
+    private Double fuelQuantity = Double.valueOf(0);
+    private Double fuelEfficiency;
 
-    public Car(double fuelEfficiency) {
-        this.fuelEfficiency = fuelEfficiency;
+    public Car(Double fuelEfficiency) {
+        this.fuelEfficiency = Double.valueOf(fuelEfficiency);
     }
 
-    public void fillUpGas(double gas) {
+    public void fillUpGas(Double gas) {
         fuelQuantity += gas;
     }
 
-    public void move(double miles) {
-        if (miles / fuelEfficiency <= fuelQuantity) {
+    public void move(Double miles) {
+        if (fuelQuantity.compareTo(miles / fuelEfficiency) >= 0) {
             distance += miles;
             fuelQuantity -= miles / fuelEfficiency;
         } else {

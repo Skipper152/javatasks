@@ -10,12 +10,12 @@ public class Main {
         System.out.println(t5);
 
         // Task #9
-        Car t9 = new Car(20);
-        t9.fillUpGas(6);
-        t9.move(50);
+        Car t9 = new Car(20d);
+        t9.fillUpGas(6d);
+        t9.move(50d);
         System.out.println(t9);
-        t9.fillUpGas(6);
-        t9.move(220);
+        t9.fillUpGas(6d);
+        t9.move(220d);
         System.out.println(t9);
 
     }
