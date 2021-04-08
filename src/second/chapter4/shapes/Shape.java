@@ -1,4 +1,4 @@
-package second.chapter4;
+package second.chapter4.shapes;
 
 public abstract class Shape implements Cloneable {
     private Point point;
@@ -19,7 +19,7 @@ public abstract class Shape implements Cloneable {
     }
 
     @Override
-    protected Shape clone() throws CloneNotSupportedException {
+    public Shape clone() throws CloneNotSupportedException {
         Shape cloneShape = (Shape) super.clone();
         cloneShape.point = new Point(getPoint().getX(), getPoint().getY());
         return cloneShape;

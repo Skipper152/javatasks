@@ -1,4 +1,4 @@
-package second.chapter4;
+package second.chapter4.shapes;
 
 public class Point {
     protected double x;

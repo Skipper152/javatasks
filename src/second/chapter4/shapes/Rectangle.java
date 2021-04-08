@@ -1,4 +1,4 @@
-package second.chapter4;
+package second.chapter4.shapes;
 
 public class Rectangle extends Shape {
     private double width;
@@ -16,7 +16,7 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    protected Rectangle clone() throws CloneNotSupportedException {
+    public Rectangle clone() throws CloneNotSupportedException {
         Rectangle cloneRectangle = (Rectangle) super.clone();
         cloneRectangle.width = width;
         cloneRectangle.height = height;

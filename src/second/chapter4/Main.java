@@ -1,5 +1,7 @@
 package second.chapter4;
 
+import second.chapter4.shapes.*;
+
 public class Main {
     public static void main(String[] args){
         // FOURTH CHAPTER
@@ -20,6 +22,5 @@ public class Main {
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
-
     }
 }

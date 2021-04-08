@@ -1,4 +1,4 @@
-package second.chapter4;
+package second.chapter4.shapes;
 
 public class Line extends Shape {
     Point to;
@@ -14,7 +14,7 @@ public class Line extends Shape {
     }
 
     @Override
-    protected Line clone() throws CloneNotSupportedException {
+    public Line clone() throws CloneNotSupportedException {
         Line cloneLine = (Line) super.clone();
         cloneLine.to = new Point(to.getX(), to.getY());
         return cloneLine;

@@ -1,4 +1,4 @@
-package second.chapter4;
+package second.chapter4.shapes;
 
 public class Circle extends Shape{
     private double radius;
@@ -14,7 +14,7 @@ public class Circle extends Shape{
     }
 
     @Override
-    protected Circle clone() throws CloneNotSupportedException {
+    public Circle clone() throws CloneNotSupportedException {
         Circle cloneCircle = (Circle) super.clone();
         cloneCircle.radius = radius;
         return cloneCircle;
