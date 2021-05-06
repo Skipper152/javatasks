@@ -1,6 +1,4 @@
-package third;
-
-import third.myCollections.MyLinkedList;
+package third.myCollections;
 
 import java.util.Arrays;
 import java.util.LinkedList;
